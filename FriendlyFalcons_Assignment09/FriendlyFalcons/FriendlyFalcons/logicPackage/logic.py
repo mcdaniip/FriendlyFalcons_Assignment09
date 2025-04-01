@@ -9,3 +9,6 @@
 # Brief Description of what this module does: Builds and returns a grammatically correct summary sentence using fetched data.
 # Citations: 
 # Anything else that's relevant: 
+
+def build_sentence(description, manufacturer, brand, query_sales):
+    return f"The product \"{description}\" by {manufacturer}, under the {brand} brand, has sold {query_sales} units."

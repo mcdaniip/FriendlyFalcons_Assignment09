@@ -12,6 +12,7 @@
 
 from databasePackage.queries import *
 from databasePackage.connector import *
+from logicPackage.logic import *
 from random import choice
 
 if __name__ == "__main__":
@@ -43,3 +44,6 @@ if __name__ == "__main__":
 
     query_sales = product_sales(product_id)
     print(f"{brand} \n\nSales (Step 6): {query_sales}")
+
+    sentence = build_sentence(description, manufacturer, brand, query_sales)
+    print(sentence)
