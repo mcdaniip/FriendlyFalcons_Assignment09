@@ -34,3 +34,12 @@ if __name__ == "__main__":
     print(f"Product ID: {product_id}")
     print(f"Manufacturer ID: {manufacturer_id}")
     print(f"Manufacturer Name: {manufacturer}")
+
+    brand = get_brand_name(brand_id)
+
+    print(f"\nBRAND (Step 5):\n")
+    print(f"Brand ID: {brand_id}")
+    print(f"Brand Name: {brand}")
+
+    query_sales = product_sales(product_id)
+    print(f"{brand} \n\nSales (Step 6): {query_sales}")
