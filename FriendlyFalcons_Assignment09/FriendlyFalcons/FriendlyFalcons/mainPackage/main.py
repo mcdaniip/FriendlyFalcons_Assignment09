@@ -29,7 +29,7 @@ if __name__ == "__main__":
     # Step 3 & 4: Get manufacturer name
     manufacturer = get_manufacturer_name(manufacturer_id)
 
-    # Output
+    # Output/
     #print("Step 1-4 complete below team (remove this later):")
     #print(f"Description: {description}")
     #print(f"Product ID: {product_id}")
